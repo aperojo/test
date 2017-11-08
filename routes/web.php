@@ -23,6 +23,6 @@ Route::get('/prueba', function () {
 // 	return "El id es {$id}";
 // });
 
-Route::get('/posts/', 'PostsController@index');
+// Route::get('/posts/', 'PostsController@index');
 Route::get('/posts/{id}', 'PostsController@post');
 

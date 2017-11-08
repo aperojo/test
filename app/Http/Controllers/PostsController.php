@@ -15,7 +15,7 @@ class PostsController extends Controller
     public function post($id) {
 
     	return view('posts.post', ['id' => $id]);
-    	return view('posts.post')->with($id);
+    	// return view('posts.post')->with($id);
 
     }
 }
